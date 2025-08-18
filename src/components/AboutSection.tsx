@@ -25,11 +25,11 @@ const AboutSection = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-background">
+    <section id="about-us" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Company Overview
+            Who We Are
           </h2>
           <div className="w-24 h-1 bg-gradient-primary mx-auto mb-8"></div>
         </div>
@@ -37,36 +37,30 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
           <div>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Founded over <span className="font-semibold text-primary">25 years ago</span>, 
-              <span className="font-semibold text-foreground"> BNS Technologies</span> has evolved into a leading provider of comprehensive 
-              technology services tailored to the dynamic needs of modern businesses.
+              <span className="font-semibold text-foreground">BNS Technology</span> was founded to deliver world-class technology and business solutions with precision and agility.
             </p>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              We specialize in delivering scalable, secure, and innovative IT solutions that empower 
-              organizations across industries to achieve operational excellence and sustainable growth.
+              Headquartered in the UK and led by a powerhouse team in Pune, India, we bring innovation to industries through cutting-edge software, infrastructure, staffing, and outsourcing.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Our strength lies in our ability to blend domain expertise, deep technical know-how, 
-              and a client-focused approach to create impactful digital transformations.
+              Our strength lies in our unique global-local approach, combining international strategic vision with deep technical expertise and cost-effective delivery.
             </p>
           </div>
           
           <div className="bg-gradient-card p-8 rounded-lg">
             <div className="mb-8">
-              <h3 className="text-2xl font-bold text-foreground mb-4">Our Vision</h3>
+              <h3 className="text-2xl font-bold text-foreground mb-4">Our Mission</h3>
               <p className="text-muted-foreground">
-                To become the preferred technology partner for businesses globally, driving innovation 
-                and success through best-in-class IT solutions.
+                To deliver scalable, cost-effective, and future-ready IT and business solutions to clients worldwide.
               </p>
             </div>
             
             <div>
-              <h3 className="text-2xl font-bold text-foreground mb-4">Our Mission</h3>
+              <h3 className="text-2xl font-bold text-foreground mb-4">Our Vision</h3>
               <p className="text-muted-foreground">
-                To deliver customized, reliable, and scalable technology services while consistently 
-                exceeding client expectations through quality, integrity, and innovation.
+                To become a globally recognized technology services provider known for quality, reliability, and partnership.
               </p>
             </div>
           </div>
