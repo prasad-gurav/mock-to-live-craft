@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Globe, Lightbulb, Link } from "lucide-react";
+import bridgeNetwork from "@/assets/bridge-network.png";
 
 const CoreStrengthsSection = () => {
   const strengths = [
@@ -21,8 +22,15 @@ const CoreStrengthsSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-card">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-20 bg-gradient-card relative overflow-hidden">
+      <div className="absolute inset-0 opacity-10">
+        <img 
+          src={bridgeNetwork} 
+          alt="Network Bridge" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Bridging Global Expertise with Local Talent

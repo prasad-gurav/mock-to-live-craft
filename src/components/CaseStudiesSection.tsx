@@ -1,6 +1,10 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { TrendingUp, Clock, Users, Headphones } from "lucide-react";
+import dataCenterImg from "@/assets/data-center.png";
+import fleetManagementImg from "@/assets/fleet-management.png";
+import staffingImg from "@/assets/staffing-solutions.png";
+import globalSupportImg from "@/assets/global-support.png";
 
 const CaseStudiesSection = () => {
   const caseStudies = [
@@ -12,7 +16,8 @@ const CaseStudiesSection = () => {
       solution: "We migrated their entire platform to a scalable cloud environment, implementing a microservices architecture.",
       result: "The client saw a 40% improvement in load times and zero downtime during peak periods, drastically enhancing the user experience.",
       metrics: ["40% faster load times", "Zero downtime", "Enhanced UX"],
-      category: "Infrastructure"
+      category: "Infrastructure",
+      image: dataCenterImg
     },
     {
       icon: Clock,
@@ -22,7 +27,8 @@ const CaseStudiesSection = () => {
       solution: "We developed a custom web application with GPS integration and a clean, user-friendly dashboard.",
       result: "The client reduced fuel costs by 15% and improved delivery efficiency by 25%, leading to significant operational savings.",
       metrics: ["15% fuel cost reduction", "25% efficiency gain", "Real-time tracking"],
-      category: "Software Development"
+      category: "Software Development",
+      image: fleetManagementImg
     },
     {
       icon: Users,
@@ -32,7 +38,8 @@ const CaseStudiesSection = () => {
       solution: "Our staffing team quickly sourced and placed three senior DevOps engineers with the exact skill set required.",
       result: "The startup accelerated its product release cycle by 3 months, gaining a crucial competitive advantage in the market.",
       metrics: ["3 months faster delivery", "3 senior engineers placed", "Competitive advantage"],
-      category: "Staffing"
+      category: "Staffing",
+      image: staffingImg
     },
     {
       icon: Headphones,
@@ -42,7 +49,8 @@ const CaseStudiesSection = () => {
       solution: "We established a dedicated 24/7 BPO team from our Pune delivery center, integrating seamlessly with their existing systems.",
       result: "Customer satisfaction scores increased by 30%, and the client gained a loyal international customer base.",
       metrics: ["30% satisfaction increase", "24/7 coverage", "Global customer base"],
-      category: "BPO"
+      category: "BPO",
+      image: globalSupportImg
     }
   ];
 
@@ -73,7 +81,14 @@ const CaseStudiesSection = () => {
           {caseStudies.map((study, index) => {
             const IconComponent = study.icon;
             return (
-              <Card key={index} className="hover:shadow-card transition-all duration-300 hover:-translate-y-1">
+              <Card key={index} className="group hover:shadow-card transition-all duration-300 hover:-translate-y-1 overflow-hidden">
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={study.image} 
+                    alt={study.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
                 <CardHeader>
                   <div className="flex items-center justify-between mb-4">
                     <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center">
@@ -83,7 +98,7 @@ const CaseStudiesSection = () => {
                       {study.category}
                     </Badge>
                   </div>
-                  <CardTitle className="text-xl font-semibold text-foreground">
+                  <CardTitle className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
                     {study.title}
                   </CardTitle>
                   <p className="text-sm text-muted-foreground font-medium">
