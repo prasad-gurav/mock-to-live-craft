@@ -37,30 +37,32 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
           <div>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              <span className="font-semibold text-foreground">BNS Technology</span> was founded to deliver world-class technology and business solutions with precision and agility.
+              <span className="font-semibold text-foreground">BNS Technologies</span> is your trusted partner for IT infrastructure, software development, and global staffing solutions. Headquartered in the UK with a major delivery center in Pune, we combine global expertise with localized excellence.
             </p>
             
-            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Headquartered in the UK and led by a powerhouse team in Pune, India, we bring innovation to industries through cutting-edge software, infrastructure, staffing, and outsourcing.
-            </p>
-            
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Our strength lies in our unique global-local approach, combining international strategic vision with deep technical expertise and cost-effective delivery.
-            </p>
+            <div className="space-y-3 text-lg text-muted-foreground">
+              <p>• Premier solution provider, Turnkey System Integrator, and Consultant</p>
+              <p>• 10+ years of experience in Indian market</p>
+              <p>• Expertise: IT Infrastructure, Security Systems, Software, Staffing, BPO</p>
+            </div>
           </div>
           
           <div className="bg-gradient-card p-8 rounded-lg">
             <div className="mb-8">
               <h3 className="text-2xl font-bold text-foreground mb-4">Our Mission</h3>
               <p className="text-muted-foreground">
-                To deliver scalable, cost-effective, and future-ready IT and business solutions to clients worldwide.
+                To deliver cutting-edge, integrated IT & security solutions that empower businesses worldwide. 
+                We are committed to providing scalable, cost-effective, and future-ready technology solutions 
+                with unified accountability and customer-centric approach.
               </p>
             </div>
             
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Our Vision</h3>
               <p className="text-muted-foreground">
-                To become a globally recognized technology services provider known for quality, reliability, and partnership.
+                To combine innovation, reliability, and customer-centric service for sustainable growth. 
+                We envision becoming the global leader in integrated technology solutions, known for quality, 
+                trusted brands, and best practices in every project we undertake.
               </p>
             </div>
           </div>

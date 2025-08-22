@@ -29,19 +29,20 @@ const ContactSection = () => {
               <div>
                 <h3 className="font-semibold text-foreground mb-2">BNS Technologies Ltd</h3>
                 <p className="text-muted-foreground">
-                  [Add UK Address]<br />
-                  United Kingdom
+                  Unit 13 Freeland Park Wareham Road,<br />
+                  Lytchett Matravers, Poole, England,<br />
+                  BH16 6FA
                 </p>
               </div>
               
               <div className="space-y-2">
                 <div className="flex items-center justify-center space-x-2">
                   <Phone className="w-4 h-4 text-primary" />
-                  <span className="text-muted-foreground">[Add UK Phone]</span>
+                  <span className="text-muted-foreground">+44 [Phone Number]</span>
                 </div>
                 <div className="flex items-center justify-center space-x-2">
                   <Mail className="w-4 h-4 text-primary" />
-                  <span className="text-muted-foreground">[Add UK Email]</span>
+                  <span className="text-muted-foreground">info@bnstechnologies.co.uk</span>
                 </div>
               </div>
             </CardContent>
@@ -59,19 +60,20 @@ const ContactSection = () => {
               <div>
                 <h3 className="font-semibold text-foreground mb-2">BNS Technologies India</h3>
                 <p className="text-muted-foreground">
-                  [Add Pune Address]<br />
-                  Pune, Maharashtra, India
+                  C1-901, KINGSTONE SERENE AUTADE,<br />
+                  SR NO 94/1 & 94/2, Handewadi,<br />
+                  Pune, Maharashtra 412308
                 </p>
               </div>
               
               <div className="space-y-2">
                 <div className="flex items-center justify-center space-x-2">
                   <Phone className="w-4 h-4 text-primary" />
-                  <span className="text-muted-foreground">[Add Pune Phone]</span>
+                  <span className="text-muted-foreground">+91 [Phone Number]</span>
                 </div>
                 <div className="flex items-center justify-center space-x-2">
                   <Mail className="w-4 h-4 text-primary" />
-                  <span className="text-muted-foreground">[Add Pune Email]</span>
+                  <span className="text-muted-foreground">pune@bnstechnologies.co.uk</span>
                 </div>
               </div>
             </CardContent>

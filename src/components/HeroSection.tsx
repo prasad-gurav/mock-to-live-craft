@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            BNS Technology: Driving Innovation from Pune to the UK and Beyond
+            BNS Technologies: Your Trusted Partner for IT Solutions
           </h1>
           
           <div className="flex items-center justify-center mb-8">
@@ -32,9 +32,9 @@ const HeroSection = () => {
           </div>
           
           <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-4xl mx-auto leading-relaxed">
-            Your trusted partner for IT infrastructure, software development, and global staffing solutions. 
-            With our head office in the UK and a major delivery center in Pune, we offer a unique blend of 
-            global insight and localized excellence.
+            Headquartered in the UK with a major delivery center in Pune, we combine global expertise 
+            with localized excellence to deliver cutting-edge IT infrastructure, software development, 
+            and comprehensive business solutions worldwide.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

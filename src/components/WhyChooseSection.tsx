@@ -5,28 +5,28 @@ const WhyChooseSection = () => {
   const reasons = [
     {
       icon: Award,
-      title: "Proven Experience",
-      description: "25+ years of delivering technology excellence across multiple industries."
-    },
-    {
-      icon: Users,
-      title: "Client-Centric Approach", 
-      description: "Every solution is crafted around your specific needs and challenges."
-    },
-    {
-      icon: Lightbulb,
-      title: "Expert Team",
-      description: "Skilled professionals with certifications in key technologies and platforms."
-    },
-    {
-      icon: Clock,
-      title: "Reliable Support",
-      description: "Round-the-clock service with dedicated account managers and support staff."
+      title: "Integrated IT & Security Solutions",
+      description: "Comprehensive technology solutions combining infrastructure, security, and innovation in one unified approach."
     },
     {
       icon: TrendingUp,
-      title: "Innovation-Driven",
-      description: "We stay ahead of the curve to bring you the latest, most effective technology solutions."
+      title: "Proven Track Record in Large-Scale Projects",
+      description: "Successfully delivered complex enterprise solutions with measurable results and client satisfaction."
+    },
+    {
+      icon: Users,
+      title: "Competitive Pricing with Quality Assurance",
+      description: "Cost-effective solutions without compromising on quality, backed by rigorous testing and validation."
+    },
+    {
+      icon: Clock,
+      title: "24/7 Support & Maintenance",
+      description: "Round-the-clock monitoring, support, and maintenance services ensuring uninterrupted business operations."
+    },
+    {
+      icon: Lightbulb,
+      title: "Turnkey Project Execution",
+      description: "Complete project lifecycle management from planning to maintenance with single vendor simplicity."
     }
   ];
 
@@ -39,7 +39,7 @@ const WhyChooseSection = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-primary mx-auto mb-8"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Transforming businesses through intelligent, secure, and scalable IT solutions
+            Your premier solution provider, turnkey system integrator, and trusted consultant with unified accountability
           </p>
         </div>
         
@@ -65,17 +65,29 @@ const WhyChooseSection = () => {
         </div>
         
         <div className="bg-gradient-card p-8 md:p-12 rounded-lg text-center">
-          <h3 className="text-3xl font-bold text-foreground mb-6">Our Vision</h3>
-          <p className="text-xl text-muted-foreground mb-8 max-w-4xl mx-auto leading-relaxed">
-            To be a globally respected technology partner known for transforming businesses through 
-            intelligent, secure, and scalable IT solutions.
-          </p>
-          
-          <h3 className="text-3xl font-bold text-foreground mb-6">Our Mission</h3>
-          <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            To provide innovative, customized, and future-proof technology services that enable our 
-            clients to grow, compete, and succeed in the digital age.
-          </p>
+          <h3 className="text-3xl font-bold text-foreground mb-6">Our USP</h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-left max-w-5xl mx-auto">
+            <div>
+              <h4 className="font-semibold text-foreground mb-2">✓ Turnkey Project Execution</h4>
+              <p className="text-muted-foreground text-sm">from planning to maintenance</p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-foreground mb-2">✓ Single Vendor Simplicity</h4>
+              <p className="text-muted-foreground text-sm">unified accountability</p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-foreground mb-2">✓ Future-Ready Design</h4>
+              <p className="text-muted-foreground text-sm">scalable, modular, tech-integrated</p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-foreground mb-2">✓ Quality & Reliability First</h4>
+              <p className="text-muted-foreground text-sm">trusted brands & best practices</p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-foreground mb-2">✓ Customer-Centric Approach</h4>
+              <p className="text-muted-foreground text-sm">tailored to client's needs</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
