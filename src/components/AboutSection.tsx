@@ -40,30 +40,47 @@ const AboutSection = () => {
               <span className="font-semibold text-foreground">BNS Technologies</span> is your trusted partner for IT infrastructure, software development, and global staffing solutions. Headquartered in the UK with a major delivery center in Pune, we combine global expertise with localized excellence.
             </p>
             
-            <div className="space-y-3 text-lg text-muted-foreground">
-              <p>• Premier solution provider, Turnkey System Integrator, and Consultant</p>
-              <p>• 10+ years of experience in Indian market</p>
-              <p>• Expertise: IT Infrastructure, Security Systems, Software, Staffing, BPO</p>
+            <div className="space-y-4 text-lg text-muted-foreground">
+              <div className="flex items-start space-x-3">
+                <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                <p>Premier solution provider, Turnkey System Integrator, and Consultant</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                <p>10+ years of experience in Indian market</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                <p>Expertise: IT Infrastructure, Security Systems, Software, Staffing, BPO</p>
+              </div>
             </div>
           </div>
           
-          <div className="bg-gradient-card p-8 rounded-lg">
-            <div className="mb-8">
-              <h3 className="text-2xl font-bold text-foreground mb-4">Our Mission</h3>
-              <p className="text-muted-foreground">
-                To deliver cutting-edge, integrated IT & security solutions that empower businesses worldwide. 
-                We are committed to providing scalable, cost-effective, and future-ready technology solutions 
-                with unified accountability and customer-centric approach.
-              </p>
-            </div>
-            
-            <div>
-              <h3 className="text-2xl font-bold text-foreground mb-4">Our Vision</h3>
-              <p className="text-muted-foreground">
-                To combine innovation, reliability, and customer-centric service for sustainable growth. 
-                We envision becoming the global leader in integrated technology solutions, known for quality, 
-                trusted brands, and best practices in every project we undertake.
-              </p>
+          <div className="bg-gradient-card p-8 rounded-lg border border-border/20">
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center flex-shrink-0">
+                  <span className="text-primary-foreground font-bold">M</span>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-foreground mb-4">Mission</h3>
+                  <p className="text-muted-foreground">
+                    To deliver cutting-edge, integrated IT & security solutions that empower businesses worldwide.
+                  </p>
+                </div>
+              </div>
+              
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center flex-shrink-0">
+                  <span className="text-primary-foreground font-bold">V</span>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-foreground mb-4">Vision</h3>
+                  <p className="text-muted-foreground">
+                    To combine innovation, reliability, and customer-centric service for sustainable growth.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -72,9 +89,12 @@ const AboutSection = () => {
           <h3 className="text-3xl font-bold text-center text-foreground mb-12">Core Values</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
             {values.map((value, index) => (
-              <Card key={index} className="hover:shadow-card transition-all duration-300 hover:-translate-y-1">
+              <Card key={index} className="hover:shadow-card transition-all duration-300 hover:-translate-y-1 bg-background/80 backdrop-blur-sm border-border/20 group">
                 <CardContent className="p-6 text-center">
-                  <h4 className="text-xl font-semibold text-foreground mb-3">
+                  <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-primary-foreground font-bold text-lg">{value.title[0]}</span>
+                  </div>
+                  <h4 className="text-xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors">
                     {value.title}
                   </h4>
                   <p className="text-muted-foreground text-sm">

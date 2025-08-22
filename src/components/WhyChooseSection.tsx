@@ -22,11 +22,6 @@ const WhyChooseSection = () => {
       icon: Clock,
       title: "24/7 Support & Maintenance",
       description: "Round-the-clock monitoring, support, and maintenance services ensuring uninterrupted business operations."
-    },
-    {
-      icon: Lightbulb,
-      title: "Turnkey Project Execution",
-      description: "Complete project lifecycle management from planning to maintenance with single vendor simplicity."
     }
   ];
 
@@ -64,27 +59,45 @@ const WhyChooseSection = () => {
           })}
         </div>
         
-        <div className="bg-gradient-card p-8 md:p-12 rounded-lg text-center">
-          <h3 className="text-3xl font-bold text-foreground mb-6">Our USP</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-left max-w-5xl mx-auto">
-            <div>
-              <h4 className="font-semibold text-foreground mb-2">✓ Turnkey Project Execution</h4>
+        <div className="bg-gradient-card p-8 md:p-12 rounded-lg border border-border/20">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl font-bold text-foreground mb-4">Our USP</h3>
+            <div className="w-16 h-1 bg-gradient-primary mx-auto"></div>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <Lightbulb className="w-8 h-8 text-primary-foreground" />
+              </div>
+              <h4 className="font-bold text-foreground mb-2">Turnkey Project Execution</h4>
               <p className="text-muted-foreground text-sm">from planning to maintenance</p>
             </div>
-            <div>
-              <h4 className="font-semibold text-foreground mb-2">✓ Single Vendor Simplicity</h4>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <Award className="w-8 h-8 text-primary-foreground" />
+              </div>
+              <h4 className="font-bold text-foreground mb-2">Single Vendor Simplicity</h4>
               <p className="text-muted-foreground text-sm">unified accountability</p>
             </div>
-            <div>
-              <h4 className="font-semibold text-foreground mb-2">✓ Future-Ready Design</h4>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <TrendingUp className="w-8 h-8 text-primary-foreground" />
+              </div>
+              <h4 className="font-bold text-foreground mb-2">Future-Ready Design</h4>
               <p className="text-muted-foreground text-sm">scalable, modular, tech-integrated</p>
             </div>
-            <div>
-              <h4 className="font-semibold text-foreground mb-2">✓ Quality & Reliability First</h4>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="w-8 h-8 text-primary-foreground" />
+              </div>
+              <h4 className="font-bold text-foreground mb-2">Quality & Reliability First</h4>
               <p className="text-muted-foreground text-sm">trusted brands & best practices</p>
             </div>
-            <div>
-              <h4 className="font-semibold text-foreground mb-2">✓ Customer-Centric Approach</h4>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <Clock className="w-8 h-8 text-primary-foreground" />
+              </div>
+              <h4 className="font-bold text-foreground mb-2">Customer-Centric Approach</h4>
               <p className="text-muted-foreground text-sm">tailored to client's needs</p>
             </div>
           </div>
