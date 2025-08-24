@@ -3,10 +3,10 @@ import bnsLogo from "@/assets/image.png";
 
 const Header = () => {
 	return (
-		<header className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
+		<header className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50 px-4">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="flex items-center justify-between h-24">
-					<div className="flex items-center">
+					<div className="flex items-center ">
 						<img src={bnsLogo} alt="BNS Technologies" className="h-16 w-auto" />
 					</div>
 
