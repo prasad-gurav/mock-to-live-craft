@@ -5,18 +5,18 @@ const Header = () => {
 	return (
 		<header className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div className="flex items-center justify-between h-16">
+				<div className="flex items-center justify-between h-24">
 					<div className="flex items-center">
-						<img src={bnsLogo} alt="BNS Technologies" className="h-10 w-auto" />
+						<img src={bnsLogo} alt="BNS Technologies" className="h-16 w-auto" />
 					</div>
 
 					<nav className="hidden md:flex items-center space-x-8">
-						<a
+						{/* <a
 							href="#home"
 							className="text-foreground hover:text-primary transition-colors"
 						>
 							Home
-						</a>
+						</a> */}
 						<a
 							href="#services"
 							className="text-foreground hover:text-primary transition-colors"
@@ -41,9 +41,9 @@ const Header = () => {
 						>
 							Contact
 						</a>
-						<Button variant="gradient" size="sm">
+						{/* <Button variant="gradient" size="sm">
 							Get Started
-						</Button>
+						</Button> */}
 					</nav>
 				</div>
 			</div>
