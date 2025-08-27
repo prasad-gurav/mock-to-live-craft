@@ -23,10 +23,10 @@ const Footer = () => {
 					<div>
 						<h3 className="font-semibold text-background mb-4">Services</h3>
 						<ul className="space-y-2 text-background/80 text-sm">
-							<li>Network Solutions</li>
-							<li>Cloud Services</li>
-							<li>Cybersecurity</li>
-							<li>Managed IT</li>
+							<li>E-Commerce Cloud Transformation</li>
+							<li>Fleet Management Web App</li>
+							<li>DevOps Talent Staffing</li>
+							<li>24/7 BPO Setup</li>
 							<li>IT Consulting</li>
 						</ul>
 					</div>
@@ -34,13 +34,13 @@ const Footer = () => {
 					<div>
 						<h3 className="font-semibold text-background mb-4">Contact</h3>
 						<div className="space-y-2 text-background/80 text-sm">
-							<p>
+							{/* <p>
 								4 Ann Street, Bergenfield,
 								<br />
 								New Jersey, USA
-							</p>
+							</p> */}
 							<p>info@bns-tech.com</p>
-							<p>www.bns-tech.com</p>
+							{/* <p>www.bns-tech.com</p> */}
 						</div>
 					</div>
 				</div>
