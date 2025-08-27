@@ -23,10 +23,10 @@ const Footer = () => {
 					<div>
 						<h3 className="font-semibold text-background mb-4">Services</h3>
 						<ul className="space-y-2 text-background/80 text-sm">
-							<li>E-Commerce Cloud Transformation</li>
-							<li>Fleet Management Web App</li>
-							<li>DevOps Talent Staffing</li>
-							<li>24/7 BPO Setup</li>
+							<li>IT Infrastructure Development</li>
+							<li>Software Application Development</li>
+							<li>Staffing Solutions</li>
+							<li>Business Process Outsourcing (BPO)</li>
 							<li>IT Consulting</li>
 						</ul>
 					</div>
