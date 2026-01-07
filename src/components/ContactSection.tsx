@@ -71,13 +71,13 @@ const ContactSection = () => {
 								<h3 className="font-semibold text-foreground mb-2">
 									BNS Technologies India
 								</h3>
-								<p className="text-muted-foreground">
-									C1-901, KINGSTONE SERENE AUTADE,
-									<br />
-									SR NO 94/1 & 94/2, Handewadi,
-									<br />
-									Pune, Maharashtra 412308
-								</p>
+							<p className="text-muted-foreground">
+								601, Suratwala Mark Plazo,
+								<br />
+								Phase I, Hinjewadi,
+								<br />
+								Pune, Maharashtra, India - 411052
+							</p>
 							</div>
 
 							<div className="space-y-2">
